@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+html,
+body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+  position: relative;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+.modal-backdrop {
+  background-color: transparent;
+}
+
+#canvas-container {
+  top: 0;
+  display: block;
+  width: 100% !important;
+  height: 100vh !important;
+  z-index: 0;
+}
+canvas {
+  background-color: transparent;
+}
+
+.webgl {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index: 0;
+}
