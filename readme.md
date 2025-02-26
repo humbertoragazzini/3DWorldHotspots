@@ -1,5 +1,5 @@
 ## Setup
-Check the project here [3D world](https://nodejs.org/en/download/).
+Check the project here [3D world](https://humbertoragazzini.github.io/3DWorldHotspots/).
 Download [Node.js](https://nodejs.org/en/download/).
 Run this followed commands:
 
